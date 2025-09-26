@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# ---- Entornos virtuales ----
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Archivos de configuración sensibles ----
+*.env
+.env.*
+
+# ---- Base de datos local ----
+priority.db
+*.sqlite3
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+
+# ---- Archivos temporales ----
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- IDEs / Editores ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Distribución / empaquetado ----
+build/
+dist/
+*.egg-info/
+*.egg
