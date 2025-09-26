@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # ---- Entornos virtuales ----
-.env_priority
+env_priority/
 .venv/
 venv/
 env/
