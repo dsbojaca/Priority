@@ -1,45 +1,34 @@
-# ---- Python ----
+# Entorno virtual
+env_priority/
+
+# Archivos de Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.pkl
 *.so
 
-# ---- Entornos virtuales ----
-env_priority/
-.venv/
-venv/
-env/
-ENV/
-
-# ---- Archivos de configuración sensibles ----
+# Archivos de entorno
+.env
 *.env
-.env.*
 
-# ---- Base de datos local ----
-priority.db
-*.sqlite3
-
-# ---- Logs ----
-*.log
-*.out
-*.err
-
-# ---- Archivos temporales ----
-*.tmp
+# Archivos de configuración de editor/IDE
+.vscode/
+.idea/
 *.swp
 *.swo
+
+# Archivos de sistema
 .DS_Store
 Thumbs.db
 
-# ---- IDEs / Editores ----
-.vscode/
-.idea/
-*.iml
+# Archivos de logs
+*.log
 
-# ---- Distribución / empaquetado ----
-build/
+# Compilados / paquetes
 dist/
+build/
 *.egg-info/
-*.egg
+
+# Cachés
+.cache/
+.mypy_cache/
+.pytest_cache/
