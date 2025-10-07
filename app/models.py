@@ -5,10 +5,10 @@ from .database import Base
 import enum 
 
 
-class PriorityEnum(enum.Enum):
-    alta= "alta",
-    media="media",
-    baja="baja",
+class PriorityEnum(str, enum.Enum):
+    alta= "alta"
+    media="media"
+    baja="baja"
 
 class EmailRecord(Base):
     __tablename__ = "emails"
